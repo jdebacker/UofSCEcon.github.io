@@ -9483,6 +9483,52 @@ th.hide-for-touch{
 .side-nav li.open ul{
 	display:block
 }
+.calendar-embed{
+	width:100%;
+	max-width:100%;
+	min-height:600px
+}
+@media only screen and (max-width: 64em){
+	.calendar-embed{
+		min-height:70vh
+	}
+	.content-secondary-page .faculty-contact{
+		margin-bottom:1.5rem
+	}
+	.content-secondary-page .faculty-contact>div.small-3.medium-4.large-5.columns{
+		float:none;
+		width:100%;
+		max-width:220px;
+		margin:0 auto 1rem auto;
+		padding-left:0;
+		padding-right:0
+	}
+	.content-secondary-page .faculty-contact>div.small-8.medium-9.large-10.columns.faculty-contact-info{
+		float:none;
+		width:100%
+	}
+}
+@media only screen and (max-width: 40em){
+	.slider-unit .slider-text-container{
+		background-color:#fff;
+		padding:0;
+		margin-top:.5rem
+	}
+	.slider-unit .slider-text-container h2{
+		font-size:1.125rem;
+		line-height:1.3
+	}
+	.slider-unit .slider-text-container h3{
+		display:block !important;
+		font-size:.95rem;
+		line-height:1.5;
+		margin:0 0 .75rem 0;
+		padding:.75rem
+	}
+	.units-home-page-side-bar{
+		margin-top:1rem
+	}
+}
 .db-profile div.breadcrumbs-container{
 	background-color:#fdfdfd;
 	border-color:#efefef;
