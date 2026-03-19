@@ -9488,6 +9488,13 @@ th.hide-for-touch{
 	max-width:100%;
 	min-height:600px
 }
+.page-title{
+	margin:0 0 1rem 0;
+	font-family:"Roboto",Helvetica,Arial,sans-serif;
+	font-size:2rem;
+	font-weight:700;
+	color:#73000a
+}
 @media only screen and (max-width: 64em){
 	.calendar-embed{
 		min-height:70vh
@@ -9509,6 +9516,9 @@ th.hide-for-touch{
 	}
 }
 @media only screen and (max-width: 40em){
+	.page-title{
+		font-size:1.5rem
+	}
 	.slider-unit .slider-text-container{
 		background-color:#fff;
 		padding:0;
