@@ -1,0 +1,111 @@
+.fa,
+.fa::before {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa {
+  font-size: 0;
+  font-style: normal;
+  line-height: 1;
+  vertical-align: middle;
+  speak: none;
+}
+
+.fa::before {
+  color: currentColor;
+  font-size: 1rem;
+}
+
+.fa-map-marker::before {
+  content: "\1F4CD";
+}
+
+.fa-twitter::before,
+.fa-twitter-square::before {
+  content: "X";
+  width: 1.2em;
+  height: 1.2em;
+  border: 0.08em solid currentColor;
+  border-radius: 0.16em;
+  font-family: "Roboto Condensed", "Arial Narrow", sans-serif;
+  font-size: 0.78em;
+  font-weight: 700;
+}
+
+.fa-clock-o::before {
+  content: "\23F2";
+}
+
+.fa-2x {
+  font-size: 0;
+}
+
+.fa-3x {
+  font-size: 0;
+}
+
+.fa-2x::before {
+  font-size: 1.8rem;
+}
+
+.fa-3x::before {
+  font-size: 2.6rem;
+}
+
+#sc-bar ul.off-canvas-list li.college.closed > a:first-child:not(.button)::before,
+#sc-bar .side-nav li.college.closed > a:first-child:not(.button)::before,
+#sc-bar ul.off-canvas-list li.closed > a:first-child:not(.button)::before,
+#sc-bar .side-nav li.closed > a:first-child:not(.button)::before,
+#sc-bar ul.off-canvas-list li > ul > li.closed > a:first-child:not(.button)::before,
+#sc-bar .side-nav li > ul > li.closed > a:first-child:not(.button)::before,
+#sc-bar ul.off-canvas-list li > ul > li > ul > li.closed > a:first-child:not(.button)::before,
+#sc-bar .side-nav li > ul > li > ul > li.closed > a:first-child:not(.button)::before {
+  font-family: inherit;
+}
+
+#sc-bar ul.off-canvas-list li.college.closed > a:first-child:not(.button)::before,
+#sc-bar .side-nav li.college.closed > a:first-child:not(.button)::before {
+  content: "\2315";
+}
+
+#sc-bar ul.off-canvas-list li.college.open > a:first-child:not(.button)::before,
+#sc-bar .side-nav li.college.open > a:first-child:not(.button)::before,
+#sc-bar ul.off-canvas-list li.open > a:first-child:not(.button)::before,
+#sc-bar .side-nav li.open > a:first-child:not(.button)::before,
+#sc-bar ul.off-canvas-list li > ul > li.open > a:first-child:not(.button)::before,
+#sc-bar .side-nav li > ul > li.open > a:first-child:not(.button)::before,
+#sc-bar ul.off-canvas-list li > ul > li > ul > li.open > a:first-child:not(.button)::before,
+#sc-bar .side-nav li > ul > li > ul > li.open > a:first-child:not(.button)::before {
+  content: "\2304";
+  font-family: inherit;
+}
+
+#sc-bar ul.off-canvas-list li.closed > a:first-child:not(.button)::before,
+#sc-bar .side-nav li.closed > a:first-child:not(.button)::before,
+#sc-bar ul.off-canvas-list li > ul > li.closed > a:first-child:not(.button)::before,
+#sc-bar .side-nav li > ul > li.closed > a:first-child:not(.button)::before,
+#sc-bar ul.off-canvas-list li > ul > li > ul > li.closed > a:first-child:not(.button)::before,
+#sc-bar .side-nav li > ul > li > ul > li.closed > a:first-child:not(.button)::before {
+  content: "\203A";
+}
+
+#sc-bar ul.off-canvas-list li.active > a:first-child:not(.button)::before,
+#sc-bar .side-nav li.active > a:first-child:not(.button)::before,
+#sc-bar ul.off-canvas-list li > ul > li.active > a:first-child:not(.button)::before,
+#sc-bar .side-nav li > ul > li.active > a:first-child:not(.button)::before,
+#sc-bar ul.off-canvas-list li > ul > li > ul > li.active > a:first-child:not(.button)::before,
+#sc-bar .side-nav li > ul > li > ul > li.active > a:first-child:not(.button)::before,
+#sc-bar ul.off-canvas-list li > ul > li > ul > li > ul li.active > a:first-child:not(.button)::before,
+#sc-bar .side-nav li > ul > li > ul > li > ul li.active > a:first-child:not(.button)::before {
+  content: "\203A";
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+#sc-bar ul.off-canvas-list li.college ul li a::before,
+#sc-bar .side-nav li.college ul li a::before {
+  content: "\2197";
+  font-family: inherit;
+}
