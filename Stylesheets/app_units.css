@@ -55,7 +55,7 @@ html,body{
 	font-size:100%
 }
 body{
-	background:#edeeec;
+	background:linear-gradient(180deg,#f6f3ef 0%,#edeeec 14rem,#edeeec 100%);
 	color:#222;
 	cursor:auto;
 	font-family:"Roboto",Helvetica,Arial,sans-serif;
@@ -9493,14 +9493,45 @@ th.hide-for-touch{
 	font-family:"Roboto",Helvetica,Arial,sans-serif;
 	font-size:2rem;
 	font-weight:700;
-	color:#73000a
+	color:#73000a;
+	padding-bottom:.5rem;
+	border-bottom:3px solid #73000a
+}
+.content-secondary-page .unit-home-page-arbitrary>.medium-12.columns{
+	background:#fff;
+	padding:1.5rem 1.75rem;
+	border-radius:14px;
+	box-shadow:0 18px 40px rgba(30,28,24,.08)
+}
+.content-secondary-page .unit-home-page-arbitrary h2,.content-secondary-page .unit-home-page-arbitrary h3{
+	margin-top:0
+}
+.content-secondary-page .faculty-contact{
+	background:#fff;
+	border:1px solid #e6ded5;
+	border-radius:14px;
+	padding:1rem;
+	box-shadow:0 10px 24px rgba(30,28,24,.05)
+}
+.content-secondary-page .faculty-contact img{
+	border-radius:10px
+}
+.content-secondary-page .panel-1,.content-secondary-page .panel-2{
+	border-radius:12px;
+	box-shadow:0 12px 28px rgba(30,28,24,.08);
+	transition:transform .18s ease,box-shadow .18s ease
+}
+.content-secondary-page .panel-1:hover,.content-secondary-page .panel-2:hover{
+	transform:translateY(-2px);
+	box-shadow:0 18px 30px rgba(30,28,24,.14)
 }
 @media only screen and (max-width: 64em){
 	.calendar-embed{
 		min-height:70vh
 	}
 	.content-secondary-page .faculty-contact{
-		margin-bottom:1.5rem
+		margin-bottom:1.5rem;
+		padding:1rem
 	}
 	.content-secondary-page .faculty-contact>div.small-3.medium-4.large-5.columns{
 		float:none;
@@ -9518,6 +9549,10 @@ th.hide-for-touch{
 @media only screen and (max-width: 40em){
 	.page-title{
 		font-size:1.5rem
+	}
+	.content-secondary-page .unit-home-page-arbitrary>.medium-12.columns{
+		padding:1.125rem;
+		border-radius:10px
 	}
 	.slider-unit .slider-text-container{
 		background-color:#fff;
