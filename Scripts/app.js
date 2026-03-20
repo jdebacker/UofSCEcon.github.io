@@ -10,7 +10,6 @@ $(document).foundation({
 
 
 // Change Date on Bottom of footer automagically
-  var currentYear = (new Date).getFullYear();
   $(document).ready(function() {
   $("#year").text( (new Date).getFullYear() );
   })
@@ -131,10 +130,6 @@ if ($(".lazyload-jw-video")[0])
 {
     $('.lazyload-jw-video').lazyload();
 }
-// Foundation JavaScript
-// Documentation can be found at: http://foundation.zurb.com/docs
-$(document).foundation();
-
 // Reloads the foundation script so the mega menu partial can swap out
 if( document.getElementById('scoped-content') != null )
 {
